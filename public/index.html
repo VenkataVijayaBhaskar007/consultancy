@@ -1,0 +1,1449 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- ===============================================-->
+    <!--    Document Title-->
+    <!-- ===============================================-->
+    <title>AOC | Consultancy</title>
+
+
+    <!-- ===============================================-->
+    <!--    Favicons-->
+    <!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" /> -->
+    <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny-slider@2.9.3/dist/tiny-slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bot.css">
+    <script src="assets/css/bot.js" defer></script>
+    <!-- <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="bd3923d6-4475-4931-bd98-1658506f366b";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script> -->
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <link href="assets/css/stylemain.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+  
+    <style>
+      @media (max-width: 460px) {
+          .custom-btn-group .btn {
+              font-size: 1.1rem;
+              padding: 0.375rem 0.75rem;
+          }
+      }
+      .video-icon-container {
+            display: inline-block;
+            background-color: #3498db; /* Set the background color */
+            border-radius: 50%; /* Create a circular shape */
+            padding: 5px; /* Adjust padding as needed */
+            width:35px
+        }
+
+        .video-icon {
+           padding: -15px;
+           margin-left: 6px;
+            color: #fff; /* Set the color of the video icon */
+        }
+         /* Base styling for the buttons */
+  .country-button {
+    text-align: center;
+  }
+
+  /* Media query for screens less than 768px */
+  @media (max-width: 768px) {
+    .country-buttons-container {
+      flex-direction: column;
+    }
+
+    .country-button {
+      width: 100%; /* Make buttons take full width */
+      margin-bottom: 10px; /* Add some spacing between buttons */
+    }
+  }
+  </style>
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+    <link href="assets/css/theme.css" rel="stylesheet" />
+  
+  </head>
+
+
+  <body>
+
+    <!-- ===============================================-->
+    <!--    Main Content-->
+    <!-- ===============================================-->
+    <main class="main" id="top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-0" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="assets/img/5.png" height="70" alt="AOC logo" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto pt-0 pt-lg-0 font-base align-items-lg-center align-items-start">
+                    <li class="nav-item px-3 px-xl-1 dropdown">
+                        <a class="nav-link fw-medium dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">Study Abroad</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="study_usa.html">Courses</a></li>
+                            <li><a class="dropdown-item" href="study_australia.html">Study in Australia</a></li>
+                            <li><a class="dropdown-item" href="study_canada.html">Study in Canada</a></li>
+                            <li><a class="dropdown-item" href="study_uk.html">Study in UK</a></li>
+                            <li><a class="dropdown-item" href="study_usa.html">Study in USA</a></li>
+                            <li><a class="dropdown-item" href="study_europe.html">Study in Ireland</a></li>
+                            <li><a class="dropdown-item" href="study_europe.html">Study in Europe</a></li>
+                            <!-- Add more dropdown items as needed -->
+                        </ul>
+                    </li>
+                    <li class="nav-item px-3 px-xl-1 dropdown">
+                        <a class="nav-link fw-medium dropdown-toggle" href="studentservices.html" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Student Services</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <li><a class="dropdown-item" href="FreeStudyAbroadCounselling.html">Free Study Abroad Counselling</a></li>
+                            <li><a class="dropdown-item" href="PremiumStudyAbroadCounselling.html">Premium Study Abroad Counselling</a></li>
+                            <li><a class="dropdown-item" href="StudentVisaService.html">Student Visa Service</a></li>
+                            <li><a class="dropdown-item" href="OverseasStudentHealthCover.html">Overseas Student Health Cover</a></li>
+                            <li><a class="dropdown-item" href="StudentAccomodation.html">Student Accomodation</a></li>
+                            <li><a class="dropdown-item" href="PersonalityAssessment.html">Personality Assessment</a></li>
+                            <!-- Add more dropdown items as needed -->
+                        </ul>
+                    </li>
+                    <!-- Repeat the above pattern for other sections -->
+                    <li class="nav-item px-3 px-xl-1 dropdown">
+                      <a class="nav-link fw-medium dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">Test Preparation</a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                          <li class="nav-item px-3 px-xl-1 dropdown">
+                            <a class="dropdown-item" href="english.html">English Tutorials</a>
+                          </li>
+                          <li><a class="dropdown-item" href="academic.html">Academic Tutorials</a></li>
+                          <!-- Add more dropdown items as needed -->
+                      </ul>
+                  </li>
+                    <!-- <li class="nav-item px-3 px-xl-1"><a class="nav-link fw-medium" aria-current="page" href="#testimonial">Latest Updates</a></li> -->
+                    <li class="nav-item px-3 px-xl-1"><a class="nav-link fw-medium" aria-current="page" href="masters.html">Upcoming Events</a></li>
+                    <li class="nav-item px-3 px-xl-1">
+                        <a href="tel:7993611399" class="btn btn-p">Talk to Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+      
+      <section style="padding-top: 0rem;">
+        <div class="bg-holder" style="background-image:url(assets/img/hero/hero-bg.svg);">
+        </div>
+        <!--/.bg-holder-->
+
+       <div class="container">
+          <div class="row align-items-center">
+            
+    <div class="col-md-5 col-lg-6 order-0 order-md-1 text-end"> <div class="spiral-main"> 
+              
+               <div class="spiral-big-circle">
+                <div class="spiral-icon-block">
+                  <img src="assets/img/dest/c-us.png" alt="web design icon" />
+                </div>
+                <div class="spiral-icon-block">
+                  <img src="assets/img/dest/c-can.png" alt="game design icon" />
+                </div>
+                <div class="spiral-icon-block">
+                  <img src="assets/img/dest/c-uk.png" alt="game dev icon" />
+                </div>
+                <div class="spiral-icon-block">
+                  <img src="assets/img/dest/c-por.png" alt="web design icon" />
+                </div>
+                <div class="spiral-icon-block">
+                  <img src="assets/img/dest/c-new.png" alt="game design icon" />
+                </div>
+                <div class="spiral-icon-block">
+                  <img src="assets/img/dest/c-ire.png" alt="game dev icon" />
+                </div>
+                <div class="spiral-icon-block">
+                  <img src="assets/img/dest/c-aus.png" alt="game dev icon" />
+                </div>
+               
+               
+                <div class="spiral-icon-block">
+                  <img src="assets/img/dest/c-eur.png" alt="ui-ux icon" />
+                </div>
+             
+             </div>
+           
+             
+              <div class="spiral-center-logo">
+                <img src="assets/img/dest/bg2.png" alt="ui-ux icon" width="210%" />
+              </div>
+            </div></div> 
+
+            
+            <div class="col-md-7 col-lg-6 text-md-start text-center py-6 ">
+             
+              <h4 class="fw-bold text-danger  ">Best Consultancy Services</h4>
+              <h1 class="hero-title">Experience, embrace, enrich with foreign consultancy</h1>
+              <p class="mb-3 fw-medium">Transformative consultancy awaits. Reserve <br class="d-none d-xl-block" />your exclusive slot for personalized guidance.<br class="d-none d-xl-block" /> Elevate aspirations, secure success now!</p>
+              <div class="text-center text-md-start">
+
+                <h3 class="fw-medium mb-6 ">choose your dream country</h3>
+                <h4 class="flight-title flight-title-sm position-relative "></h4>
+                
+                
+
+                <div role="group" aria-label="Country Buttons" class="country-buttons-container" style="padding-top: -20px; display: flex; justify-content: space-evenly; flex-wrap: wrap;">
+                  <div class="country-button">
+                    <img src="assets/img/hero/aus.png" height="60" alt="Australia">
+                    <br/>
+                    <button class="btn btn-primary btn-lg mt-2 mb-3 border-0 primary-btn-shadow">Australia</button>
+                  </div>
+                  <div class="country-button">
+                    <img src="assets/img/hero/canada.png" height="60" alt="Canada">
+                    <br/>
+                    <button class="btn btn-primary btn-lg mt-2 mb-3 border-0 primary-btn-shadow">Canada</button>
+                  </div>
+                  <div class="country-button">
+                    <img src="assets/img/hero/europe.png" height="60" alt="Europe">
+                    <br/>
+                    <button class="btn btn-primary btn-lg mt-2 mb-3 border-0 primary-btn-shadow">Europe</button>
+                  </div>
+                
+                  <div class="country-button">
+                    <img src="assets/img/hero/usa.png" height="60" alt="USA">
+                    <br/>
+                    <button class="btn btn-primary btn-lg mt-2 mb-3 border-0 primary-btn-shadow">USA</button>
+                  </div>
+                
+                  <div class="country-button">
+                    <img src="assets/img/hero/uk.png" height="60" alt="UK">
+                    <br/>
+                    <button class="btn btn-primary btn-lg mt-2 mb-3 border-0 primary-btn-shadow">UK</button>
+                  </div>
+                
+                  
+                
+                
+                </div>
+
+
+
+
+         
+              
+                
+                
+                
+                
+                
+              
+            </div>
+            </div>
+            
+          </div>
+          
+        </div>
+        
+      </section>
+     
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section  id="service" style="margin-top: -4rem;" >
+
+        <div class="container">
+          <!-- <div class="position-absolute z-index-1 start-0   d-none d-lg-block"><img src="assets/img/category/shape.svg" style="max-width: 200px" alt="service" /></div> -->
+          <div class="mb-7 text-center">
+            <h5 class="text-secondary">CATEGORY </h5>
+            <h3 class="fs-xl-9 fs-lg-8 fs-5 fw-bold font-cursive text-capitalize">We Offer Best Services</h3>
+          </div>
+          <div class="row" style="margin-top: -2rem;">
+            <div class="col-lg-3 col-sm-6 mb-6 ">
+              <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
+                <div class="card-body p-xxl-5 p-4"> <img src="assets/img/category/icon1.png" width="75" alt="Service" />
+                  <h4 class="mb-3">Test Preparation</h4>
+                  <p class="mb-0 fw-medium">Built Wicket longer admire do barton vanity itself do in it.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-6">
+              <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
+                <div class="card-body p-xxl-5 p-4"> <img src="assets/img/category/icon2.png" width="75" alt="Service" />
+                  <h4 class="mb-3">Visa Assistance</h4>
+                  <p class="mb-0 fw-medium">Engrossed listening. Park gate sell they west hard for the.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-6">
+              <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
+                <div class="card-body p-xxl-5 p-4"> <img src="assets/img/category/icon3.png" width="75" alt="Service" />
+                  <h4 class="mb-3">Expert Guidance</h4>
+                  <p class="mb-0 fw-medium">Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 mb-6">
+              <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
+                <div class="card-body p-xxl-5 p-4"> <img src="assets/img/category/icon4.png" width="75" alt="Service" />
+                  <h4 class="mb-3">Scholarship</h4>
+                  <p class="mb-0 fw-medium">We deliver outsourced aviation services for military customers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+      <!-- <div class="we-are-block">
+
+        <div id="about-us-section">
+      
+          <div class="about-us-image">
+      
+            <img src="https://digitalupgrade.com/images/lobbyimage_1.jpg" width="808" height="458" alt="Lobby Image">
+      
+          </div>
+      
+          <div class="about-us-info">
+      
+            <h2>We are Digital Upgrade</h2>
+      
+            <p>Digital Upgrade, located in Evansville, IN, makes it easy for businesses to create and manage their digital presence and logistics, meaning we can make your business more efficient and profitable! We believe in our community and want to help our local business economy grow and expand. We believe in our clients, and want to assist in their digital success. The D-UP team grades ourselves on outcomes, not on sales.</p>
+      
+            <a href="#" title="About Us Button">ABOUT US</a>
+      
+          </div>
+      
+        </div>
+      
+        <div id="history-section">
+      
+          <div class="history-image">
+      
+            <img src="https://digitalupgrade.com/images/building_pic.jpg" width="951" height="471" alt="Building Pic">
+      
+          </div>
+      
+          <div class="history-info">
+      
+            <h2>Preserving Local History</h2>
+      
+            <p>In 2018, technology companies, Desktop Doctors & Digital Upgrade found a new place to call home, at 816 N. 9th Ave. Since the takeover of the 118-year-old building (formally Stippler Tool & Supply and Crown Chair Company), there have been many renovations completed to preserve this local piece of Evansville, IN history.</p>
+      
+            <a href="#" title="History Button">HISTORY</a>
+      
+          </div>
+      
+        </div>
+      
+      </div> -->
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="pt-5" id="destination" style="margin-top: -4rem;">
+
+        <div class="container ">
+          <div class="position-absolute start-100 bottom-0 translate-middle-x d-none d-xl-block ms-xl-n4"><img src="assets/img/dest/shape.svg" alt="destination" /></div>
+          <div class="mb-7 text-center">
+            <h5 class="text-secondary">Top Destinations </h5>
+            <h3 class="fs-xl-9 fs-lg-8 fs-5 fw-bold font-cursive text-capitalize">Wherever you want to go, we'll get you there.</h3>
+            <p>Explore the best study destinations in the world! Learn all about the countries' top universities, scholarships, cost of living, post-study work rights and more</p>
+          </div>
+
+
+          <div class="row">
+             <div  class="col-md-4 mb-4 card1">
+              <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest1.png" alt="Rome, Italty" />
+                <div class="card-body py-4 px-3">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="study_usa.html">Study in USA</a></h4><span class="fs-1 fw-medium"></span>
+                  </div>
+  <div class="d-flex align-items-center"> <span class="fs-0 fw-medium">Know more &nbsp;&nbsp;</span><img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /></div>
+                </div>
+              </div>
+            </div>
+             <div class="col-md-4 mb-4 card1">
+              <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest2.png" alt="London, UK" />
+                <div class="card-body py-4 px-3">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="study_uk.html">Study in UK</a></h4><span class="fs-1 fw-medium"></span>
+                  </div>
+  <div class="d-flex align-items-center"> <span class="fs-0 fw-medium">Know more &nbsp;&nbsp;</span><img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /></div>
+                </div>
+              </div>
+            </div>
+             <div class="col-md-4 mb-4 card1">
+              <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest3.png" alt="Full Europe" />
+                <div class="card-body py-4 px-3">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="study_canada.html">Study in Canada</a></h4><span class="fs-1 fw-medium"></span>
+                  </div>
+  <div class="d-flex align-items-center"> <span class="fs-0 fw-medium">Know more &nbsp;&nbsp;</span><img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="row">
+             <div class="col-md-4 mb-4 card1">
+              <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest4.png" alt="Rome, Italty" />
+                <div class="card-body py-4 px-3">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="study_europe.html">Study in Ireland</a></h4><span class="fs-1 fw-medium"></span>
+                  </div>
+                  <div class="d-flex align-items-center"> <span class="fs-0 fw-medium">Know more &nbsp;&nbsp;</span><img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /></div>
+                </div>
+              </div>
+            </div>
+             <div class="col-md-4 mb-4 card1">
+              <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest5.png" alt="London, UK" />
+                <div class="card-body py-4 px-3">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="study_australia.html">Study in Australia</a></h4><span class="fs-1 fw-medium"></span>
+                  </div>
+                  <div class="d-flex align-items-center"> <span class="fs-0 fw-medium">Know more &nbsp;&nbsp;</span><img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /></div>
+                </div>
+              </div>
+            </div>
+             <div class="col-md-4 mb-4 card1">
+              <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest6.png" alt="Rome, Italty" />
+                <div class="card-body py-4 px-3">
+                  <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                    <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="study_europe.html">Study in Europe </a></h4><span class="fs-1 fw-medium"></span>
+                  </div>
+                  <div class="d-flex align-items-center"> <span class="fs-0 fw-medium">Know more &nbsp;&nbsp;</span><img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /></div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div><!-- end of .container-->
+
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section id="booking" style="margin-top: -4rem;">
+
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="mb-4 text-start">
+                <h5 class="text-secondary">Easy and Fast </h5>
+                <h3 class="fs-xl-9 fs-lg-8 fs-5 fw-bold font-cursive text-capitalize">Consult with Our Experts for the Next Available Slot</h3>
+              </div>
+              <div class="d-flex align-items-start mb-5">
+                <div class="bg-primary me-sm-4 me-3 p-3" style="border-radius: 13px"> <img src="assets/img/steps/1.png" width="22" alt="steps" /></div>
+                <div class="flex-1">
+                  <h5 class="text-secondary fw-bold fs-0">Choose your country</h5>
+                  <p>Explore our pages and choose your  <br class="d-none d-sm-block"> country, and Follow for further steps.</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-start mb-5">
+                <div class="bg-danger me-sm-4 me-3 p-3" style="border-radius: 13px"> <img src="assets/img/steps/2.png" width="22" alt="steps" /></div>
+                <div class="flex-1">
+                  <h5 class="text-secondary fw-bold fs-0">consult our team</h5>
+                  <p>After find your perfect spot, make  <br class="d-none d-sm-block"> your payment and get ready to study.</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-start mb-5">
+                <div class="bg-info me-sm-4 me-3 p-3" style="border-radius: 13px"> <img src="assets/img/steps/3.png" width="22" alt="steps" /></div>
+                <div class="flex-1">
+                  <h5 class="text-secondary fw-bold fs-0">Make payment</h5>
+                  <p>Lastly, you have to pay for the spot <br class="d-none d-sm-block"> on time and start to explore the world.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center align-items-start float-animation">
+              <div class="card position-relative shadow" style="max-width: 370px;">
+                <div class="position-absolute z-index--1 me-10 me-xxl-0" style="right:-160px;top:-210px;"> <img src="assets/img/steps/bg.png" style="max-width:550px;" alt="shape" /></div>
+                <div class="card-body p-3"> <img class="mb-4 mt-2 rounded-2 w-100" src="assets/img/steps/booking-img.jpg" alt="booking" />
+                  <div>
+                    <h5 class="fw-medium">Apply for Ireland</h5>
+                    <p class="fs--1 mb-3 fw-medium">Duration | from 26 jan onwards</p>
+                    <p>Discover unparalleled consultancy services on our website, where you can book your slot for personalized guidance. Act fast, as slots are limited! For more information, feel free to call us and secure your spot in our exclusive advisory sessions.</p>
+                    <!-- <div class="icon-group mb-4"> <span class="btn icon-item"> <img src="assets/img/steps/leaf.svg" alt=""/></span><span class="btn icon-item"> <img src="assets/img/steps/map.svg" alt=""/></span><span class="btn icon-item"> <img src="assets/img/steps/send.svg" alt=""/></span>
+                    </div> -->
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="d-flex align-items-center mt-n1"> <a href="tel:892034353" class="btn-custom" aria-label="call to get service" style="text-decoration: none;">
+                        <span>call to get service</span>
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                      </a></div>
+                      <div class="show-onhover position-relative">
+                        <div class="card hideEl shadow position-absolute end-0 start-xl-50 bottom-100 translate-xl-middle-x ms-3" style="width: 260px;border-radius:18px;">
+                          <div class="card-body py-3">
+                            <div class="d-flex">
+                              <div style="margin-right: 10px"> <img class="rounded-circle" src="assets/img/steps/favorite-placeholder.png" width="50" alt="favorite" /></div>
+                              <div>
+                                <p class="fs--1 mb-1 fw-medium">Ongoing </p>
+                                <h5 class="fw-medium mb-3">Apply for Ireland</h5>
+                            <h6 class="fs--1 fw-medium mb-2"><span>40 people applied</span> in past week</h6>
+                                <div class="progress" style="height: 6px;">
+                                  <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="btn"> <img src="assets/img/steps/info.png" width="20" alt="step" /></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+
+      </section>
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+      <div class="mb-7 mt-7 text-center" >
+        <h5 class="text-secondary ">More about studying in USA </h5>
+        <h3 class="fs-xl-9 fs-lg-8 fs-5 fw-bold font-cursive text-capitalize">Wherever you want to go, we'll get you there.</h3>
+        <p>Explore the best study destinations in the world! Learn all about the countries' top universities, scholarships, cost of living, post-study work rights and more</p>
+      </div>
+      
+      <div class="content-wrapper">
+  
+        <div class="news-card">
+          <a  class="news-card__card-link"></a>
+          <img src="assets/img/dest/card1.png" alt="" class="news-card__image">
+          <div class="news-card__text-wrapper">
+            <h2 class="news-card__title">Education System in USA</h2>
+            <div class="news-card__post-date">Jan 29, 2018</div>
+            <a class="news-card__view-more">view more</a>
+            <div class="news-card__details-wrapper">
+              <p class="news-card__excerpt">The US is a free country and so is its education system. The states enjoy complete autonomy over its education system and the only contribution of the federal government is in terms of the funding it provides.&hellip;</p>
+              <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="news-card">
+          <a  class="news-card__card-link"></a>
+          <img src="assets/img/dest/card4.png" alt="" class="news-card__image">
+          <div class="news-card__text-wrapper">
+            <h2 class="news-card__title">Top Universities in USA</h2>
+            <div class="news-card__post-date">Jan 29, 2018</div>
+            <a class="news-card__view-more">view more</a>
+            <div class="news-card__details-wrapper">
+              <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio, pariatur&hellip;</p>
+              <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="news-card">
+          <a  class="news-card__card-link"></a>
+          <img src="assets/img/dest/card3.png" alt="" class="news-card__image">
+          <div class="news-card__text-wrapper">
+            <h2 class="news-card__title">Cost of Studying in USA</h2>
+            <div class="news-card__post-date">Jan 29, 2018</div>
+            <a class="news-card__view-more">view more</a>
+            <div class="news-card__details-wrapper">
+              <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio, pariatur&hellip;</p>
+              <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+        </div>
+      
+        
+        <div class="news-card">
+          <a  class="news-card__card-link"></a>
+          <img src="assets/img/dest/card2.png" alt="" class="news-card__image">
+          <div class="news-card__text-wrapper">
+            <h2 class="news-card__title">Student Visa Assistance for USA</h2>
+            <div class="news-card__post-date">Jan 29, 2018</div>
+            <a class="news-card__view-more">view more</a>
+            <div class="news-card__details-wrapper">
+              <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio, pariatur&hellip;</p>
+              <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="news-card">
+          <a  class="news-card__card-link"></a>
+          <img src="assets/img/dest/card5.png" alt="" class="news-card__image">
+          <div class="news-card__text-wrapper">
+            <h2 class="news-card__title">Upcoming intakes to study in USA</h2>
+            <div class="news-card__post-date">Jan 29, 2018</div>
+            <a class="news-card__view-more">view more</a>
+            <div class="news-card__details-wrapper">
+              <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio, pariatur&hellip;</p>
+              <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="news-card">
+          <a  class="news-card__card-link"></a>
+          <img src="assets/img/dest/card6.png" alt="" class="news-card__image">
+          <div class="news-card__text-wrapper">
+            <h2 class="news-card__title">Entry Requirements for USA Universities</h2>
+            <div class="news-card__post-date">Jan 29, 2018</div>
+            <a class="news-card__view-more">view more</a>
+            <div class="news-card__details-wrapper">
+              <p class="news-card__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est pariatur nemo tempore repellat? Ullam sed officia iure architecto deserunt distinctio, pariatur&hellip;</p>
+              <a href="#" class="news-card__read-more">Read more <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+   
+    
+<!-- <div class="marqq body11 body1 my-section">
+  <div class="marq">
+    <div class="marq-group">
+      <a href="your_link_here">
+  <img src="assets/img/dest/flag1.png" alt="">
+</a>
+      <a href="your_link_here">
+  <img src="assets/img/dest/flag2.png" alt="">
+</a>
+      <a href="your_link_here">
+  <img src="assets/img/dest/flag3.png" alt="">
+</a>
+      <a href="your_link_here">
+  <img src="assets/img/dest/flag4.png" alt="">
+</a>
+      <a href="your_link_here">
+  <img src="assets/img/dest/flag5.png" alt="">
+</a>
+      
+    </div>
+  
+    <div aria-hidden="true" class="marq-group">
+      <a href="your_link_here">
+        <img src="assets/img/dest/flag1.png" alt="">
+      </a>
+            <a href="your_link_here">
+        <img src="assets/img/dest/flag2.png" alt="">
+      </a>
+            <a href="your_link_here">
+        <img src="assets/img/dest/flag3.png" alt="">
+      </a>
+            <a href="your_link_here">
+        <img src="assets/img/dest/flag4.png" alt="">
+      </a>
+            <a href="your_link_here">
+        <img src="assets/img/dest/flag5.png" alt="">
+      </a>
+    </div>
+  </div>
+  
+  <div class="marq marq-borders" style="--marq-duration: 20s">
+    <div class="marq-group">
+      <p>ADREAMZ OVERSEAS EDUCATION</p>
+      <p aria-hidden="true">ADREAMZ OVERSEAS EDUCATION</p>
+      <p aria-hidden="true">ADREAMZ OVERSEAS EDUCATION</p>
+    </div>
+  
+    <div aria-hidden="true" class="marq-group">
+      <p>ADREAMZ OVERSEAS EDUCATION</p>
+      <p>ADREAMZ OVERSEAS EDUCATION</p>
+      <p>ADREAMZ OVERSEAS EDUCATION</p>
+    </div>
+  </div>
+  
+  <div class="marq marq-reverse">
+    <div class="marq-group">
+      <a href="your_link_here">
+  <img src="assets/img/dest/flag1.png" alt="">
+</a>
+      <a href="your_link_here">
+  <img src="assets/img/dest/flag2.png" alt="">
+</a>
+      <a href="your_link_here">
+  <img src="assets/img/dest/flag3.png" alt="">
+</a>
+      <a href="your_link_here">
+  <img src="assets/img/dest/flag4.png" alt="">
+</a>
+      <a href="your_link_here">
+  <img src="assets/img/dest/flag5.png" alt="">
+</a>
+    </div>
+  
+    <div aria-hidden="true" class="marq-group">
+      <a href="your_link_here">
+        <img src="assets/img/dest/flag1.png" alt="">
+      </a>
+            <a href="your_link_here">
+        <img src="assets/img/dest/flag2.png" alt="">
+      </a>
+            <a href="your_link_here">
+        <img src="assets/img/dest/flag3.png" alt="">
+      </a>
+            <a href="your_link_here">
+        <img src="assets/img/dest/flag4.png" alt="">
+      </a>
+            <a href="your_link_here">
+        <img src="assets/img/dest/flag5.png" alt="">
+      </a>
+    </div>
+  </div>
+  
+   </div> -->
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section id="testimonial" style="margin-top: -2rem; margin-bottom: -2rem;">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="mb-8 text-start">
+                <h5 class="text-secondary">Testimonials </h5>
+                <h3 class="fs-xl-9 fs-lg-8 fs-5 fw-bold font-cursive text-capitalize">What people say about Us...</h3>
+              </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6">
+              <div class="pe-7 ps-5 ps-lg-0">
+                <div class="carousel slide carousel-fade position-static" id="testimonialIndicator" data-bs-ride="carousel">
+                  <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#testimonialIndicator" data-bs-slide-to="0" aria-current="true" aria-label="Testimonial 0"></button>
+                    <button class="false" type="button" data-bs-target="#testimonialIndicator" data-bs-slide-to="1" aria-current="true" aria-label="Testimonial 1"></button>
+                    <button class="false" type="button" data-bs-target="#testimonialIndicator" data-bs-slide-to="2" aria-current="true" aria-label="Testimonial 2"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item position-relative active">
+                      <div class="card shadow" style="border-radius:10px;">
+                        <div class="position-absolute start-0 top-0 translate-middle"> <img class="rounded-circle fit-cover" src="assets/img/testimonial/author.png" height="65" width="65" alt="" /></div>
+                        <div class="card-body p-4">
+                          <p class="fw-medium mb-4">&quot;Enlightening experience with AOC Consultancy! Expert insights transformed my approach. Grateful for their invaluable guidance.&quot;</p>
+                          <h5 class="text-secondary">Madhusudan</h5>
+                          <p class="fw-medium fs--1 mb-0">Student, Vijayawada</p>
+                        </div>
+                      </div>
+                      <div class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" style="border-radius:10px;transform:translate(25px, 25px)"> </div>
+                    </div>
+                    <div class="carousel-item position-relative ">
+                      <div class="card shadow" style="border-radius:10px;">
+                        <div class="position-absolute start-0 top-0 translate-middle"> <img class="rounded-circle fit-cover" src="assets/img/testimonial/author2.png" height="65" width="65" alt="" /></div>
+                        <div class="card-body p-4">
+                          <p class="fw-medium mb-4">&quot;AOC Consultancy exceeded my expectations! Their strategic wisdom propelled my success journey. Highly recommend their exceptional services.&quot;</p>
+                          <h5 class="text-secondary">Shaik Hasnaink</h5>
+                          <p class="fw-medium fs--1 mb-0">Former NRI, Hyderabad</p>
+                        </div>
+                      </div>
+                      <div class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" style="border-radius:10px;transform:translate(25px, 25px)"> </div>
+                    </div>
+                    <div class="carousel-item position-relative ">
+                      <div class="card shadow" style="border-radius:10px;">
+                        <div class="position-absolute start-0 top-0 translate-middle"> <img class="rounded-circle fit-cover" src="assets/img/testimonial/author3.png" height="65" width="65" alt="" /></div>
+                        <div class="card-body p-4">
+                          <p class="fw-medium mb-4">&quot;Incredible results with AOC Consultancy! Their tailored advice unlocked new possibilities for my endeavors. Trustworthy and transformative guidance for professional growth.&quot;</p>
+                          <h5 class="text-secondary">Keerthana varma</h5>
+                          <p class="fw-medium fs--1 mb-0">Khulna, Bangladesh</p>
+                        </div>
+                      </div>
+                      <div class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" style="border-radius:10px;transform:translate(25px, 25px)"> </div>
+                    </div>
+                  </div>
+                  <div class="carousel-navigation d-flex flex-column flex-between-center position-absolute end-0 top-lg-50 bottom-0 translate-middle-y z-index-1 me-3 me-lg-0" style="height:60px;width:20px;">
+                    <button class="carousel-control-prev position-static" type="button" data-bs-target="#testimonialIndicator" data-bs-slide="prev"><img src="assets/img/icons/up.svg" width="16" alt="icon" /></button>
+                    <button class="carousel-control-next position-static" type="button" data-bs-target="#testimonialIndicator" data-bs-slide="next"><img src="assets/img/icons/down.svg" width="16" alt="icon" /></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+     
+      </section>
+   
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+ <!-- card area start -->
+ <div class="card_wrapper">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 text-center">
+              <h2 class="head_text" >Featured profiles</h2>
+              <p class="head_para" >Aenean at ligula massa. Donec ipsum elit, placenta sed duierrut<br> dapibus semper turpin Fusce nec premium nuns.</p>
+          </div>
+          <div class="col-12">
+              <div class="owl-carousel slider_carousel">
+                  <div class="card_box">
+                   
+                      <img class="img-fluid w-100" src="img/slider-01.png" alt="" style="object-fit: cover;">
+                      <div class="card_text">
+                        <h4>Profile ID: 23456</h4>
+                       
+                            <span class="video-icon-container">
+                                <i class="fas fa-play video-icon"></i>
+                            </span>
+                       
+                    </div>
+                  </div>
+                  <div class="card_box">
+                      <img class="img-fluid w-100" src="img/slider-03.png" alt="">
+                      <div class="card_text">
+                          <h4>Profile ID: 23456</h4>
+                          <span class="video-icon-container">
+                            <i class="fas fa-play video-icon"></i>
+                        </span>  </div>
+                  </div>
+                  <div class="card_box">
+                      <img class="img-fluid w-100" src="img/slider-04.png" alt="">
+                      <div class="card_text">
+                          <h4>Profile ID: 23456</h4>
+                          <span class="video-icon-container">
+                            <i class="fas fa-play video-icon"></i>
+                        </span> </div>
+                  </div>
+                  <div class="card_box">
+                      <img class="img-fluid w-100" src="img/slider-05.png" alt="">
+                      <div class="card_text">
+                          <h4>Profile ID: 23456</h4>
+                          <span class="video-icon-container">
+                            <i class="fas fa-play video-icon"></i>
+                        </span> </div>
+                  </div>
+                  <div class="card_box">
+                      <img class="img-fluid w-100" src="img/slider-01.png" alt="">
+                      <div class="card_text">
+                          <h4>Profile ID: 23456</h4>
+                          <span class="video-icon-container">
+                            <i class="fas fa-play video-icon"></i>
+                        </span>  </div>
+                  </div>
+                  <div class="card_box">
+                      <img class="img-fluid w-100" src="img/slider-03.png" alt="">
+                      <div class="card_text">
+                          <h4>Profile ID: 23456</h4>
+                          <span class="video-icon-container">
+                            <i class="fas fa-play video-icon"></i>
+                        </span></div>
+                  </div>
+                  <div class="card_box">
+                      <img class="img-fluid w-100" src="img/slider-04.png" alt="">
+                      <div class="card_text">
+                          <h4>Profile ID: 23456</h4>
+                          <span class="video-icon-container">
+                            <i class="fas fa-play video-icon"></i>
+                        </span> </div>
+                  </div>
+                  <div class="card_box">
+                      <img class="img-fluid w-100" src="img/slider-05.png" alt="">
+                      <div class="card_text">
+                          <h4>Profile ID: 23456</h4>
+                          <span class="video-icon-container">
+                            <i class="fas fa-play video-icon"></i>
+                        </span> </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- card area end -->
+  
+  <!-- about section header with success stories -->
+    
+ <!-- <section class="home-custom">
+        <div class="description-custom">
+          <h1 class="title-custom">
+            <span class="gradient-text-custom">Explore Global Education with Confidence, Security, and Smiles </span> <br/>1000+ Enriched Journeys!
+          </h1>
+          <p class="paragraph-custom">
+            Unlock your potential with a decade of consultancy excellence. Our experienced mentors bring smiles to your professional journey, ensuring growth and success.
+          </p>
+         
+          <a href="tel:892034353" class="btn-custom" aria-label="call to get service" style="text-decoration: none;">
+            <span>call to get service</span>
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </a>
+          
+       
+        </div>
+    
+        <div class="users-color-container-custom">
+          <span class="item-custom" style="--i: 1"></span>
+          <img
+            class="item-custom img-custom"
+            src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/274f29ce-0d3f-4ac2-a2aa-f9b7bd188b2a"
+            style="--i: 2"
+            alt="" />
+          <span class="item-custom" style="--i: 3"></span>
+          <img
+            class="item-custom img-custom"
+            src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/b8a14493-3d9f-4b9b-b93a-56d0bc7243e9"
+            style="--i: 4"
+            alt="" />
+    
+          <img
+            class="item-custom img-custom"
+            src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/03e51e1e-9750-45a5-b75e-a1e341d4562a"
+            style="--i: 10"
+            alt="" />
+          <span class="item-custom" style="--i: 11"></span>
+          <img class="item-custom img-custom" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/5eb50f89-3e5a-480e-860c-8d40d3ba9ffe" style="--i: 12" alt="" />
+          <span class="item-custom" style="--i: 5"></span>
+    
+          <span class="item-custom" style="--i: 9"></span>
+          <img class="item-custom img-custom" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/86c71a79-2efe-4567-8665-b1e5a1fd9735" style="--i: 8" alt="" />
+          <span class="item-custom" style="--i: 7"></span>
+          <img class="item-custom img-custom" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/97ef9643-5202-41aa-80f0-ceeabccdd099" style="--i: 6" alt="" />
+        </div>
+      </section>
+      <section class="card-container-custom" id="card-container-custom">
+        <div class="tns-outer" id="tns1-ow"><div class="tns-liveregion tns-visually-hidden" aria-live="polite" aria-atomic="true">slide <span class="current">1 to 2</span>  of 6</div><div id="tns1-mw" class="tns-ovh"><div class="tns-inner" id="tns1-iw"><div class="slider-custom  tns-slider tns-carousel tns-subpixel tns-calc tns-horizontal" id="tns1" style="transform: translate3d(16.6667%, 0px, 0px);">
+          <div class="card-custom tns-item tns-slide-active" data-tilt="" id="tns1-item0" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
+            <div class="content-custom">
+              <img class="img-custom" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/69fb8584-66a0-4ecd-bae5-dd00015a1ad5" alt="">
+              <h1>Accelerated Growth</h1>
+              <p>
+                With a mentor, you can fast-track your journey to success. Benefit
+                from their experience and tap into their knowledge, helping you
+                avoid common pitfalls.
+              </p>
+              <button class="btn-custom btn-grad-custom">
+                <span>Learn More</span>
+                <ion-icon name="arrow-forward-outline" role="img" class="md hydrated"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="card-custom tns-item tns-slide-active" data-tilt="" id="tns1-item0" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
+            <div class="content-custom">
+              <img class="img-custom" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/69fb8584-66a0-4ecd-bae5-dd00015a1ad5" alt="">
+              <h1>Accelerated Growth</h1>
+              <p>
+                With a mentor, you can fast-track your journey to success. Benefit
+                from their experience and tap into their knowledge, helping you
+                avoid common pitfalls.
+              </p>
+              <button class="btn-custom btn-grad-custom">
+                <span>Learn More</span>
+                <ion-icon name="arrow-forward-outline" role="img" class="md hydrated"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="card-custom tns-item tns-slide-active" data-tilt="" id="tns1-item0" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
+            <div class="content-custom">
+              <img class="img-custom" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/69fb8584-66a0-4ecd-bae5-dd00015a1ad5" alt="">
+              <h1>Accelerated Growth</h1>
+              <p>
+                With a mentor, you can fast-track your journey to success. Benefit
+                from their experience and tap into their knowledge, helping you
+                avoid common pitfalls.
+              </p>
+              <button class="btn-custom btn-grad-custom">
+                <span>Learn More</span>
+                <ion-icon name="arrow-forward-outline" role="img" class="md hydrated"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="card-custom tns-item tns-slide-active" data-tilt="" id="tns1-item0" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
+            <div class="content-custom">
+              <img class="img-custom" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/69fb8584-66a0-4ecd-bae5-dd00015a1ad5" alt="">
+              <h1>Accelerated Growth</h1>
+              <p>
+                With a mentor, you can fast-track your journey to success. Benefit
+                from their experience and tap into their knowledge, helping you
+                avoid common pitfalls.
+              </p>
+              <button class="btn-custom btn-grad-custom">
+                <span>Learn More</span>
+                <ion-icon name="arrow-forward-outline" role="img" class="md hydrated"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="card-custom tns-item tns-slide-active" data-tilt="" id="tns1-item0" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);">
+            <div class="content-custom">
+              <img class="img-custom" src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/69fb8584-66a0-4ecd-bae5-dd00015a1ad5" alt="">
+              <h1>Accelerated Growth</h1>
+              <p>
+                With a mentor, you can fast-track your journey to success. Benefit
+                from their experience and tap into their knowledge, helping you
+                avoid common pitfalls.
+              </p>
+              <button class="btn-custom btn-grad-custom">
+                <span>Learn More</span>
+                <ion-icon name="arrow-forward-outline" role="img" class="md hydrated"></ion-icon>
+              </button>
+            </div>
+          </div>
+      
+          
+         
+        
+          
+
+      </section> 
+       -->
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+     
+      <!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+
+
+
+
+
+
+
+
+      <!-- <section class="mt-4 container ftco-animate fadeInUp ftco-animated">
+        <div class="heading-section ftco-animate text-center fadeInUp ftco-animated">
+          <h2 class="mb-4  text-dark">Our University Partnership</h2>
+      
+        </div>
+        <style>
+          .carousel {
+            overflow: hidden;
+            width: 100%;
+          }
+      
+          .carousel-container {
+            display: flex;
+            width: 400%; /* 4 images, each taking up 100% of the width */
+            animation: scroll 20s infinite linear; /* scroll for 20 seconds and repeat infinitely */
+            animation-delay: 2s; /* delay animation by 2 seconds for a more attractive effect */
+          }
+      
+          .carousel-container img {
+            height: 200px;
+            width: 200px; /* each image takes up 1/4 of the container */
+            margin-right: 20px; /* add space between the images */
+            object-fit: cover; /* scale images to fit their containers */
+            transition: transform 0.5s ease-out; /* add a smooth transition effect when images change */
+          }
+      
+          .carousel-container img:last-of-type {
+            margin-right: 0; /* remove right margin from last image */
+          }
+          .carousel-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0; /* hide the overlay by default */
+            background-color: rgba(0, 0, 0, 0.5); /* add a semi-transparent background */
+            transition: opacity 0.5s ease-out; /* add a smooth transition effect */
+          }
+          .carousel:hover .carousel-overlay {
+            opacity: 1; /* show the overlay when the mouse hovers over the carousel */
+          }
+      
+          @keyframes scroll {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translateX(-10%); /* move container 3x the width of one image */
+            }
+          }
+      
+        </style>
+        <script>
+          const carousel = document.querySelector('.carousel');
+      const container = document.querySelector('.carousel-container');
+      
+      carousel.addEventListener('mouseover', () => {
+        container.style.animationPlayState = 'paused'; /* pause the animation */
+      });
+      
+      carousel.addEventListener('mouseout', () => {
+        container.style.animationPlayState = 'running'; /* resume the animation */
+      });
+        </script>
+        <div class="carousel ftco-animate fadeInUp ftco-animated">
+          <div class="carousel-container">
+            <img src="https://i.ibb.co/BBrgfMM/St-lawrence.png">
+            <img src="https://i.ibb.co/4YfDQxr/2.png" alt="">
+            <img src="https://i.ibb.co/hMRdGvM/3.png" alt="">
+            <img src="https://i.ibb.co/bKn15SZ/4.png" alt="">
+            <img src="https://i.ibb.co/8rFmZQk/5.png" alt="">
+            <img src="https://i.ibb.co/2nxmj4r/7.png" alt="">
+            <img src="https://i.ibb.co/2gZb5Lz/8.png" alt="">
+            <img src="https://i.ibb.co/DrCCS2C/9.png" alt="">
+            <img src="https://i.ibb.co/vhKTCZ2/10.png" alt="">
+            <img src="https://i.ibb.co/LvgF2sN/11.png" alt="">
+            <img src="https://i.ibb.co/FBgFzQH/12.png" alt="">
+            <img src="https://i.ibb.co/5M2wBWm/13.png" alt="">
+            <img src="https://i.ibb.co/z8nQNvG/6.png" alt="">
+            <img src="https://i.ibb.co/hdYJMyf/1.png">
+            <img src="https://i.ibb.co/4YfDQxr/2.png" alt="">
+            <img src="https://i.ibb.co/hMRdGvM/3.png" alt="">
+            <img src="https://i.ibb.co/bKn15SZ/4.png" alt="">
+            <img src="https://i.ibb.co/8rFmZQk/5.png" alt="">
+            <img src="https://i.ibb.co/2nxmj4r/7.png" alt="">
+            <img src="https://i.ibb.co/2gZb5Lz/8.png" alt="">
+            <img src="https://i.ibb.co/DrCCS2C/9.png" alt="">
+            <img src="https://i.ibb.co/vhKTCZ2/10.png" alt="">
+            <img src="https://i.ibb.co/LvgF2sN/11.png" alt="">
+            <img src="https://i.ibb.co/FBgFzQH/12.png" alt="">
+            <img src="https://i.ibb.co/5M2wBWm/13.png" alt="">
+            <img src="https://i.ibb.co/z8nQNvG/6.png" alt="">
+          </div>
+        </div>
+   
+      
+      </section> -->
+
+
+   
+
+
+
+      
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- <section id="contact" class="contact">
+        <div class="container">
+  
+          <div class="section-title">
+            <h2>Contact</h2>
+            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+        </div>
+  
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3829.1512436024664!2d80.42439177490961!3d16.31521458440059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a75cbf289bc65%3A0xb69b235f4d7fb9e7!2sADREAMZ%20OVERSEAS%20EDUCATION%20GUNTUR!5e0!3m2!1sen!2sus!4v1707128702659!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+        </div>
+  
+        <div class="container">
+          <div class="row mt-5">
+  
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Location:</h4>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+  
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@example.com</p>
+                </div>
+  
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 55s</p>
+                </div>
+  
+              </div>
+  
+            </div>
+  
+            <div class="col-lg-8 mt-5 mt-lg-0">
+  
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center"><button type="submit">Send Message</button></div>
+              </form>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+      </section>End Contact Section
+   -->
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+      <!-- <div class="card-main container statics">
+        <div class="row ">
+          <div class="col-md-6 card-info-section order-2 order-md-1">
+            <div class="row">
+              <h1 class="card-header text-center text-md-start ">Get <span style="color: hsl(277, 64%, 61%);">insights</span> that help your business grow.</h1>
+              <p class="card-info text-center text-md-start ">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+                experience, and overall efficiency.</p>
+            </div>
+            <div class="row mt-5">
+              <div class="col-12 col-sm-4 text-center ">
+                <h2 class="card-stat">10k+</h2>
+                <p class="card-stat-header">COMPANIES</p>
+              </div>
+              <div class="col-12 col-sm-4 text-center ">
+                <h2 class="card-stat">314</h2>
+                <p class="card-stat-header">TEMPLATES</p>
+              </div>
+              <div class="col-12 col-sm-4 text-center ">
+                <h2 class="card-stat">12M+</h2>
+                <p class="card-stat-header">QUERIES</p>
+              </div>
+            </div>
+          </div>
+          <div class=" col-md-6 order-1 order-md-2">
+            <img class="header-img" src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Header Image">
+          </div>
+        </div>
+      </div> -->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer-02 mt-6" >
+      
+      <div class="container">
+      <div class="row justify-content-center">
+      <div class="col-10 col-lg-6">
+      
+      </div>
+      </div>
+      <div class="row">
+      <div class="col-md-4 col-lg-5">
+      <div class="row">
+      <div class="col-md-12 col-lg-8 mb-md-0 mb-4">
+      <h5 class="footer-heading1  "> 
+        <div class="rounded-image-container">
+        <img src="assets/img/AOC-white.png"  alt="AOC logo" />
+    </div><a href="#" class="logo" style=" color: white; ">Your Consultancy Name</a></h5>
+      <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+      <a href="#" style="color: white;">let's get social <span class="ion-ios-arrow-round-forward"></span></a>
+      </div>
+      <div class="social-media-footer mt-2 mb-2">
+        <div class="social-media-icon facebook-bg"><i style="color: white;" class="fab fa-facebook-f"></i></div>
+        <div class="social-media-icon google-bg"><i style="color: white;" class="fab fa-instagram"></i></div>
+        <div class="social-media-icon twitter-bg"><i style="color: white;" class="fab fa-twitter"></i></div>
+        <div class="social-media-icon google-bg"><i style="color: white;" class="fab fa-google-plus-g"></i></div>
+
+        <!-- Add more social media icons with corresponding colors -->
+    </div>
+      </div>
+      </div>
+      <div class="col-md-8 col-lg-7" >
+      <div class="row">
+      <div class="col-md-3 mb-md-0 mb-4 border-left">
+      <h2 class="footer-heading section-title section-title-sm position-relative pb-3" style="color: white;">Study Abroad</h2>
+      <ul class="list-unstyled" >
+      <li><a href="#" class="py-1 d-block" style="color: white;">study in Australia</a></li>
+      <li><a href="#" class="py-1 d-block" style="color: white;">Study in USA</a></li>
+      <li><a href="#" class="py-1 d-block" style="color: white;">Study in UK </a></li>
+      <li><a href="#" class="py-1 d-block" style="color: white;">Study in Canada</a></li>
+      <li><a href="#" class="py-1 d-block" style="color: white;">Study in Europe</a></li>
+      </ul>
+      </div>
+      <div class="col-md-3 mb-md-0 mb-4 border-left">
+      <h2 class="footer-heading section-title section-title-sm position-relative pb-3 " style="color: white;">Test Preparation</h2>
+      <ul class="list-unstyled">
+      <li><a href="#" class="py-1 d-block" style="color: white;">IELTS</a></li>
+      <li><a href="#" class="py-1 d-block" style="color: white;">TOEFL</a></li>
+      <li><a href="#" class="py-1 d-block" style="color: white;">PTE</a></li>
+      <li><a href="#" class="py-1 d-block" style="color: white;">Duolingo</a></li>
+      </ul>
+      </div>
+     
+      <div class="col-md-3 mb-md-0 mb-4 border-left">
+      <h2 class="footer-heading section-title section-title-sm position-relative pb-3 " style="color: white;">Get in Touch</h2>
+      <ul class="list-unstyled" style="color: white;">
+      <li><a href="#" class="py-1 d-block" style="color: white;">Chat on Whatsapp</a></li>
+      <li><a href="#" class="py-1 d-block" style="color: white;">Book an Appointment</a></li>
+      <li><a href="#" class="py-1 d-block" style="color: white;">Meet Us</a></li>
+      <li><a href="#" class="py-1 d-block" style="color: white;">Googleplus</a></li>
+      </ul>
+      </div>
+      <div class="col-md-3 mb-md-0 mb-4 border-left">
+        <h2 class="footer-heading section-title section-title-sm position-relative pb-3 " style="color: white;">Premium Counselling</h2>
+        <ul class="list-unstyled">
+        <li><a href="#" class="py-1 d-block" style="color: white;">Undergraduate</a></li>
+        <li><a href="#" class="py-1 d-block" style="color: white;">MS/PhD</a></li>
+        <li><a href="#" class="py-1 d-block" style="color: white;">Master in Management</a></li>
+        <li><a href="#" class="py-1 d-block" style="color: white;">MBA</a></li>
+      
+        </ul>
+        </div>
+      </div>
+      </div>
+      </div>
+   
+  
+      <a href="https://wa.me/7993611399" class="whatsapp-button chatbot-toogler-l pop-up-animation " target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp" ></i>
+        
+    </a>
+
+      </div>
+     
+      </footer>
+ 
+
+      <div style="color:black; background-color:rgba(255, 166, 0, 0.629); text-align: center; font-size: 16px;    " >
+        <a href="index.html" style="color: white; text-decoration: none;" onmouseover="this.style.color='navy'" onmouseout="this.style.color='white'"><b>Your consultancy name here</b></a><span> © </span>All Rights Reserved.</span><br/>
+        <span >designed and developed by <a style="color: white; text-decoration: none;" onmouseover="this.style.color='navy'" onmouseout="this.style.color='white'" href="https://atomsgroup.net/"> Atomsgroup</a> <br>
+
+       
+    </div>
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ===============================================-->
+    <!--    JavaScripts-->
+    <!-- ===============================================-->
+    <script src="vendors/@popperjs/popper.min.js"></script>
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="vendors/fontawesome/all.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+ 
+        function slider_carouselInit() {
+            $('.owl-carousel.slider_carousel').owlCarousel({
+                dots: false,
+                loop: true,
+                margin: 30,
+                stagePadding: 2,
+                autoplay: true,
+                nav: true,
+                navText: ["<i class='far fa-arrow-alt-circle-left'></i>","<i class='far fa-arrow-alt-circle-right'></i>"],
+                autoplayTimeout: 1500,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2,
+                    },
+                    992: {
+                        items: 5
+                    }
+                }
+            });
+        }
+        slider_carouselInit();
+
+   
+</script>
+<script src="assets/js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap" rel="stylesheet">
+  </body>
+
+</html>
